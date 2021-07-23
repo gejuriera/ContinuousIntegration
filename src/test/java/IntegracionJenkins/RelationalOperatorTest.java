@@ -29,13 +29,13 @@ public class RelationalOperatorTest {
 		RelationalOperator tester = new RelationalOperator();
 		assertFalse(tester.isLess(5, 11));
 	}
-	##################test 5
+	
 	@Test
 	public void isLessTest3() {
 		RelationalOperator tester = new RelationalOperator();
 		assertFalse(tester.isLess(2, 10));
 	}
-	##################test 6
+	
 	@Test
 	public void isGreaterTest3() {
 		RelationalOperator tester = new RelationalOperator();
