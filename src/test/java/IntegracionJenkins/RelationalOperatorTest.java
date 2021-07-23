@@ -9,7 +9,7 @@ public class RelationalOperatorTest {
 	@Test
 	public void isGreaterTest1() {
 		RelationalOperator tester = new RelationalOperator();
-		assertFalse(tester.isGreater(4, 3));
+		assertFalse(tester.isGreater(3, 4));
 	}
 	
 	@Test
@@ -27,13 +27,13 @@ public class RelationalOperatorTest {
 	@Test
 	public void isLessTest2() {
 		RelationalOperator tester = new RelationalOperator();
-		assertFalse(tester.isLess(5, 11));
+		assertFalse(tester.isLess(11, 5));
 	}
 	
 	@Test
 	public void isLessTest3() {
 		RelationalOperator tester = new RelationalOperator();
-		assertFalse(tester.isLess(2, 10));
+		assertFalse(tester.isLess(10, 2));
 	}
 	
 	@Test
